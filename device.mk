@@ -34,6 +34,10 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
     charger_res_images \
     charger
+    
+# Optimus G Settings
+PRODUCT_COPY_FILES += \
+        vendor/pa/prebuilt/common/apk/OptimusGsettings.apk:system/app/OptimusGsettings.apk
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
@@ -250,7 +254,7 @@ PRODUCT_PACKAGES += send_bug
 PRODUCT_COPY_FILES += \
 	system/extras/bugmailer/bugmailer.sh:system/bin/bugmailer.sh \
 	system/extras/bugmailer/send_bug:system/bin/send_bug
-
+	
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/fetch-swv:system/bin/fetch-swv
 
