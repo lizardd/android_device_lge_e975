@@ -34,10 +34,6 @@ PRODUCT_PACKAGES := \
 PRODUCT_PACKAGES += \
     charger_res_images \
     charger
-    
-# Optimus G Settings
-PRODUCT_COPY_FILES += \
-        vendor/pa/prebuilt/common/apk/OptimusGsettings.apk:system/app/OptimusGsettings.apk
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
